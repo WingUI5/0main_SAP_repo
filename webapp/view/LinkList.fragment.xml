@@ -1,0 +1,19 @@
+<core:FragmentDefinition
+	xmlns="sap.m"
+	xmlns:core="sap.ui.core">
+	
+	<Toolbar>
+	<content>
+		<Button id="collapseAll" text="collapse all nodes" press="onCollapseAllPress"/>
+	</content>
+	</Toolbar>
+	<Tree id="Links" items="{path: '/'}" includeItemInSelection="false">
+		<CustomTreeItem>
+			<content>
+				<Text text="{text}" visible="{=!${isUrl}}"></Text>
+				<core:Icon src="sap-icon://chain-link"  visible="{isUrl}" class="sapUiSmallMarginEnd"></core:Icon>
+				<Link text="{text}" href="{url}" visible="{isUrl}" target="_blank"></Link>
+			</content>
+		</CustomTreeItem>
+	</Tree>
+</core:FragmentDefinition>

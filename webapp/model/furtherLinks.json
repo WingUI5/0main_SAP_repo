@@ -1,0 +1,123 @@
+{"furtherLinks": [
+	{
+	"text": "SAP Education",
+	"isUrl": false,
+	"nodes":
+			[
+			{
+			"text": "SAP Live Access",
+			"url": "https://liveaccess.sap.com/",
+			"isUrl": true
+			},
+			{
+			"text": "SAP Training and Education @ SCN",
+			"url": "http://scn.sap.com/community/training-and-education",
+			"isUrl": true
+			},
+			{
+			"text": "Training @ SAP",
+			"url": "https://training.sap.com",
+			"isUrl": true
+			}
+			]
+	},
+	{
+	"text": "SAP Fiori",
+	"isUrl": false,
+	"nodes":
+			[
+			{
+			"text": "SAP Fiori Apps Reference Library",
+			"url": "http://www.sap.com/fiori-apps-library/",
+			"isUrl": true
+			},
+			{
+			"text": "SAP Fiori Community",
+			"url": "https://www.sap.com/community/topic/fiori.html",
+			"isUrl": true
+			},
+			{
+			"text": "SAP Fiori Experience",
+			"url": "http://experience.sap.com/fiori/",
+			"isUrl": true
+			},
+			{
+			"text": "SAP Fiori Journey Map",
+			"url": "http://fiori.sapjourneymap.com/",
+			"isUrl": true
+			},
+			{
+			"text": "SAP Fiori, Demo Cloud Edition",
+			"url": "https://www.sapfioritrial.com",
+			"isUrl": true
+			}
+			]
+	},
+	{
+	"text": "SAP Cloud Platform",
+	"isUrl": false,
+	"nodes":
+			[
+			{
+			"text": "SAP HCP Home",
+			"url": "http://hcp.sap.com/",
+			"isUrl": true
+			},
+			{
+			"text": "SAP HCP Productive",
+			"url": "http://hana.ondemand.com/",
+			"isUrl": true
+			},
+			{
+			"text": "SAP HCP Trial",
+			"url": "http://hanatrial.ondemand.com/",
+			"isUrl": true
+			}
+			]
+	},
+	{
+	"text": "SAP Implementation",
+	"isUrl": false,
+	"nodes":
+			[
+			{
+			"text": "Innovation Discovery",
+			"url": "http://sapsupport.info/support-innovations/innovation-discovery/",
+			"isUrl": true
+			},
+			{
+			"text": "SAP Best Practices Explorer",
+			"url": "https://rapid.sap.com/bp/",
+			"isUrl": true
+			}
+			]
+	},
+	{
+	"text": "SAP Support Portal",
+	"isUrl": false,
+	"nodes":
+			[
+			{
+			"text": "Maintenance Planner",
+			"url": "https://apps.support.sap.com/sap/support/mp",
+			"isUrl": true
+			},
+			{
+			"text": "Product Availability Matrix",
+			"url": "https://support.sap.com/pam",
+			"isUrl": true
+			},
+			{
+			"text": "Software Download Center",
+			"url": "https://support.sap.com/swdc",
+			"isUrl": true
+			},
+			{
+			"text": "Software Logistics Toolset",
+			"url": "https://support.sap.com/sltoolset",
+			"isUrl": true
+			}
+			]
+	}
+	
+]}

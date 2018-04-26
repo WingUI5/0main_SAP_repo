@@ -1,0 +1,387 @@
+[
+	{ 
+		"text": "Local WTS Tools",
+		"isUrl": false,
+		"nodes":
+			[
+			{	"text": "Orion",
+				"url": "http://wtshost.wdf.sap.corp:8080/",
+				"isUrl": true
+								
+			},
+			{	"text": "SAP HANA Cloud Connector",
+				"url": "https://wtshost.wdf.sap.corp:8443/",
+				"isUrl": true
+								
+			},
+			{	"text": "SAP Management Console (JNLP)",
+				"url": "N:/SAP/SAPMC/servicehttp/sapmc",
+				"isUrl": true
+								
+			},
+			{	"text": "SAP Web IDE Personal Edition",
+				"url": "http://wtshost.wdf.sap.corp:8080/webide/index.html",
+				"isUrl": true
+								
+			}
+			
+			
+			]
+	},
+	{
+		"text": "Development",
+		"isUrl": false,
+		"nodes":
+			[
+			{
+				"text": "fsdhost",
+				"isUrl": false,
+				"nodes": 
+					[ 
+					{	"text": "FSD Business Client (via WFD)",
+						"url": "https://fsdhost.wdf.sap.corp:44309/sap/bc/nwbc",
+						"isUrl": true
+					},
+					{	"text": "FSD Fiori Launchpad (via WFD)",
+						"url": "https://fsdhost.wdf.sap.corp:44309/sap/bc/ui2/flp",
+						"isUrl": true
+					},
+					{	"text": "FSD Fiori Launchpad Designer (via WFD)",
+						"url": "https://fsdhost.wdf.sap.corp:44309/sap/bc/ui5_ui5/sap/arsrvc_upb_admn/main.html",
+						"isUrl": true
+					},
+					{	"text": "FSD SAP GUI for HTML (via WFD)",
+						"url": "https://fsdhost.wdf.sap.corp:44309/sap/bc/gui/sap/its/webgui",
+						"isUrl": true
+					},
+					{	"text": "FSD SAP Management Console",
+						"url": "http://fsdhost.wdf.sap.corp:50013",
+						"isUrl": true
+					},
+					{	"text": "FSD SAP Screen Personas (via WFD)",
+						"url": "https://fsdhost.wdf.sap.corp:44309//sap/bc/personas",
+						"isUrl": true
+					},
+					{	"text": "FSD UI Theme Designer (via WFD)",
+						"url": "https://fsdhost.wdf.sap.corp:44309/sap/bc/theming/theme-designer",
+						"isUrl": true
+					},
+					{	"text": "WFD SAP Web Dispatcher Administration",
+						"url": "https://fsdhost.wdf.sap.corp:44309/sap/wdisp/admin/public/index.html",
+						"isUrl": true
+					}
+					
+					]
+			},
+			{
+				"text": "hadhost",
+				"isUrl": false,
+				"node":
+					[
+					{	"text": "HAD SAP HANA Cockpit",
+						"url": "http://hadhost.wdf.sap.corp:8000/sap/hana/admin/cockpit",
+						"isUrl": true
+					
+					},
+					{	"text": "HAD SAP HANA Interactive Education (SHINE)",
+						"url": "http://hadhost.wdf.sap.corp:8000/sap/hana/democontent/epm",
+						"isUrl": true
+					
+					},
+					{	"text": "HAD SAP HANA Web IDE",
+						"url": "http://hadhost.wdf.sap.corp:8000/sap/hana/ide",
+						"isUrl": true
+					
+					}
+					]
+			},
+			{
+				"text": "s4dhost",
+				"isUrl": false,
+				"nodes":
+					[
+					{	"text": "S4D Business Client (via W4D)",
+						"url": "https://s4dhost.wdf.sap.corp:44309/sap/bc/nwbc",
+						"isUrl": true
+					},
+					{	"text": "S4D SAP GUI for HTML (via W4D)",
+						"url": "https://s4dhost.wdf.sap.corp:44309/sap/bc/gui/sap/its/webgui",
+						"isUrl": true
+					},
+					{	"text": "S4D SAP Management Console",
+						"url": "http://s4dhost.wdf.sap.corp:50013/",
+						"isUrl": true
+					},
+					{	"text": "S4D SAP Screen Personas (via W4D)",
+						"url": "https://s4dhost.wdf.sap.corp:44309//sap/bc/personas",
+						"isUrl": true
+					},
+					{	"text": "W4D SAP Web Dispatcher Administration",
+						"url": "https://s4dhost.wdf.sap.corp:44309/sap/wdisp/admin/public/index.html",
+						"isUrl": true
+					}
+					]
+			}
+			]
+	},
+	{
+		"text": "Quality Assurance",
+		"isUrl": false,
+		"nodes": 
+			[
+
+				
+				{
+				"text": "fsqhost",
+				"isUrl": false,
+				"nodes":
+					[
+					{	"text": "FSQ Business Client (via WFQ)",
+						"url": "https://fsqhost.wdf.sap.corp:44319/sap/bc/nwbc",
+						"isUrl": true
+					},
+					{	"text": "FSQ Fiori Launchpad (via WFQ)",
+						"url": "https://fsqhost.wdf.sap.corp:44319/sap/bc/ui2/flp",
+						"isUrl": true
+					},
+					{	"text": "FSQ Fiori Launchpad Designer (via WFQ)",
+						"url": "https://fsqhost.wdf.sap.corp:44319/sap/bc/ui5_ui5/sap/arsrvc_upb_admn/main.html",
+						"isUrl": true
+					},
+					{	"text": "FSQ SAP GUI for HTML (via WFQ))",
+						"url": "https://fsqhost.wdf.sap.corp:44319/sap/bc/gui/sap/its/webgui",
+						"isUrl": true
+					},
+					{	"text": "FSQ SAP Management Console",
+						"url": "http://fsqhost.wdf.sap.corp:51013/",
+						"isUrl": true
+					},
+					{	"text": "FSQ SAP Screen Personas (via WFQ)",
+						"url": "https://fsqhost.wdf.sap.corp:44319//sap/bc/personas",
+						"isUrl": true
+					},
+					{	"text": "FSQ UI Theme Designer (via WFQ)",
+						"url": "https://fsqhost.wdf.sap.corp:44319/sap/bc/theming/theme-designer/",
+						"isUrl": true
+					},
+					{	"text": "WFQ SAP Web Dispatcher Administration",
+						"url": "https://fsqhost.wdf.sap.corp:44319/sap/wdisp/admin/public/index.html",
+						"isUrl": true
+					}
+					]
+			},
+			{
+				"text": "haqhost",
+				"isUrl": false,
+				"nodes":
+					[
+					{	"text": "HAQ SAP HANA Cockpit",
+						"url": "http://haqhost.wdf.sap.corp:8010/sap/hana/admin/cockpit",
+						"isUrl": true
+					},
+					{	"text": "HAQ SAP HANA Interactive Education (SHINE)",
+						"url": "http://haqhost.wdf.sap.corp:8010/sap/hana/democontent/epm",
+						"isUrl": true
+					},
+					{	"text": "HAQ SAP HANA Web IDE",
+						"url": "http://haqhost.wdf.sap.corp:8010/sap/hana/ide",
+						"isUrl": true
+					}
+					]
+			},
+			{
+				"text": "s4qhost",
+				"isUrl": false,
+				"nodes":
+					[
+					{	"text": "S4Q Business Client (via W4Q)",
+						"url": "https://s4qhost.wdf.sap.corp:44319/sap/bc/nwbc",
+						"isUrl": true
+					},
+					{	"text": "S4Q SAP GUI for HTML (via W4Q)",
+						"url": "https://s4qhost.wdf.sap.corp:44319/sap/bc/gui/sap/its/webgui",
+						"isUrl": true
+					},
+					{	"text": "S4Q SAP Management Console",
+						"url": "http://s4qhost.wdf.sap.corp:51013/",
+						"isUrl": true
+					},
+					{	"text": "S4Q SAP Screen Personas (via W4Q)",
+						"url": "https://s4qhost.wdf.sap.corp:44319//sap/bc/personas",
+						"isUrl": true
+					},
+					{	"text": "W4Q SAP Web Dispatcher Administration",
+						"url": "https://s4qhost.wdf.sap.corp:44319/sap/wdisp/admin/public/index.html",
+						"isUrl": true
+					}
+					]
+			}
+			
+			]
+	},
+	{
+		"text": "Production",
+		"isUrl": false,
+		"nodes": 
+			[
+				{
+				"text": "fsphost",
+				"isUrl": false,
+				"nodes":
+					[
+					{	"text": "FSP Business Client (via WFP)",
+						"url": "https://fsphost.wdf.sap.corp:44329/sap/bc/nwbc",
+						"isUrl": true
+					},
+					{	"text": "FSP Fiori Launchpad (via WFP)",
+						"url": "https://fsphost.wdf.sap.corp:44329/sap/bc/ui2/flp",
+						"isUrl": true
+					},
+					{	"text": "FSP Fiori Launchpad Designer (via WFP)",
+						"url": "https://fsphost.wdf.sap.corp:44329/sap/bc/ui5_ui5/sap/arsrvc_upb_admn/main.html",
+						"isUrl": true
+					},
+					{	"text": "FSP SAP GUI for HTML (via WFP))",
+						"url": "https://fsphost.wdf.sap.corp:44329/sap/bc/gui/sap/its/webgui",
+						"isUrl": true
+					},
+					{	"text": "FSP SAP Management Console",
+						"url": "http://fsphost.wdf.sap.corp:52013/",
+						"isUrl": true
+					},
+					{	"text": "FSP SAP Screen Personas (via WFP)",
+						"url": "https://fsphost.wdf.sap.corp:44329//sap/bc/personas",
+						"isUrl": true
+					},
+					{	"text": "FSP UI Theme Designer (via WFP)",
+						"url": "https://fsphost.wdf.sap.corp:44329/sap/bc/theming/theme-designer/",
+						"isUrl": true
+					},
+					{	"text": "WFP SAP Web Dispatcher Administration",
+						"url": "https://fsphost.wdf.sap.corp:44329/sap/wdisp/admin/public/index.html",
+						"isUrl": true
+					}
+					]
+			},
+			{
+				"text": "haphost",
+				"isUrl": false,
+				"nodes":
+					[
+					{	"text": "HAP SAP HANA Cockpit",
+						"url": "http://haphost.wdf.sap.corp:8020/sap/hana/admin/cockpit",
+						"isUrl": true
+					},
+					{	"text": "HAP SAP HANA Interactive Education (SHINE)",
+						"url": "http://haphost.wdf.sap.corp:8020/sap/hana/democontent/epm",
+						"isUrl": true
+					},
+					{	"text": "HAP SAP HANA Web IDE",
+						"url": "http://haphost.wdf.sap.corp:8020/sap/hana/ide",
+						"isUrl": true
+					}
+					]
+			},
+			{
+				"text": "s4phost",
+				"isUrl": false,
+				"nodes":
+					[
+					{	"text": "S4P Business Client (via W4P)",
+						"url": "https://s4phost.wdf.sap.corp:44329/sap/bc/nwbc",
+						"isUrl": true
+					},
+					{	"text": "S4P SAP GUI for HTML (via W4P)",
+						"url": "https://s4phost.wdf.sap.corp:44329/sap/bc/gui/sap/its/webgui",
+						"isUrl": true
+					},
+					{	"text": "S4P SAP Management Console",
+						"url": "http://s4phost.wdf.sap.corp:52013/",
+						"isUrl": true
+					},
+					{	"text": "S4P SAP Screen Personas (via W4P)",
+						"url": "https://s4phost.wdf.sap.corp:44329//sap/bc/personas",
+						"isUrl": true
+					},
+					{	"text": "W4P SAP Web Dispatcher Administration",
+						"url": "https://s4phost.wdf.sap.corp:44329/sap/wdisp/admin/public/index.html",
+						"isUrl": true
+					}
+					]
+			}
+			
+			]
+	},
+	{
+		"text": "Application Lifecycle Management (ALM)",
+		"isUrl": false,
+		"nodes": 
+			[
+				{
+				"text": "smhost",
+				"isUrl": false,
+				"nodes":
+					[ {
+						"text": "SMA Business Client",
+						"url": "https://smhost.wdf.sap.corp:44380/sap/bc/nwbc",
+						"isUrl": true
+					},
+					{
+						"text": "SMA Fiori Launchpad",
+						"url": "https://smhost.wdf.sap.corp:44380/sap/bc/ui2/flp",
+						"isUrl": true
+					},
+					{
+						"text": "SMA SAP Management Console",
+						"url": "http://smhost.wdf.sap.corp:58013/",
+						"isUrl": true
+					},
+					{
+						"text": "SMJ Homepage",
+						"url": "https://smhost.wdf.sap.corp:59001/",
+						"isUrl": true
+					},
+					{
+						"text": "SMJ SAP Management Console",
+						"url": "http://smhost.wdf.sap.corp:59013",
+						"isUrl": true
+					},
+					{
+						"text": "SMJ SAP NetWeaver Administrator",
+						"url": "https://smhost.wdf.sap.corp:59001/nwa",
+						"isUrl": true
+					}
+
+					]
+				}
+			]
+	},
+	{
+		"text": "SAP Help Portal",
+		"isUrl": false,
+		"nodes":
+			[
+			{
+			"text": "SAP Fiori",
+			"url": "http://help.sap.com/fiori/",
+			"isUrl": true
+			},
+			{
+			"text": "SAP NetWeaver 7.5",
+			"url": "http://help.sap.com/NW75",
+			"isUrl": true
+			},
+			{
+			"text": "SAP S4HANA",
+			"url": "http://help.sap.com/s4hana",
+			"isUrl": true
+			},
+			{
+			"text": "SAP Solution Manager 7.",
+			"url": "http://help.sap.com/SOLUTIONMANAGER72/",
+			"isUrl": true
+			}
+			]
+	}
+	
+]
